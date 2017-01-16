@@ -4,6 +4,8 @@ key page rules:
 */
 
 
+/*change to rem & width for responsiveness*/
+
 *	{
 	box-sizing: border-box;
 }
