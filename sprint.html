@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type ="text/css" href="sprint.css">
+<link rel="stylesheet" type ="text/css" href="sprintsass/sprint.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- viewport used for responsive websites  -->
 <html>
 <head>
 	<title>Sprint Media</title>
 </head>
 <body>
 
-<div class="navigation">
-	<div class="nav">
-		<nav><h3 class="sprint-nav">SPRINT MEDIA</h3></nav>
-		<nav>home</nav>
-		<nav>our ideas</nav>
-		<nav>our work</nav>
-		<nav>contact us</nav>
-	</div>
-</div>
+<!-- page-wrap for responsive design -->
+<div class="page-wrap">
+
+<nav class="navigation">
+	<a class="nav-icon" href="#"></a>
+			<ul class= "nav" >
+				<li class="shadow"><h3 id="sprint-nav">SPRINT MEDIA</h3></li>
+				<li class="shadow-2">home</li>
+				<li class="shadow-2">our ideas</li>
+				<li class="shadow-2">our work</li>
+				<li class="shadow-2">contact us</li>
+			</ul>
+		</nav>
+
+
+<!-- img wrapped in a div to get it to work -->
 
 <div class="title">
 		<h1 class="sprint-title">SPRINT MEDIA</h1>
@@ -22,30 +32,45 @@
 	</div>
 
 <div class="opening-text">
-		<h3 class="copy-tag">Accelated Conference & Training Program Management</h3>
+	<div class="copy-tag">
+		<h3 class="copy-h3">Accelerated Conference & Training Program Management</h3>
+	</div>
+	<div class="opening-p">
 		<p>Sprint Media is a collective of web developers, UX specialists, marketers, and business development professionals that is ready to take ownership of your conference and training programs.</p>
 	</div>
+	<img class="cartoon-1" src="images/cartoon-1.png" alt="training program">
+</div>
+
 
 <div class="success-stories">
-		<div class="success-circle">
-			<h2 class="view-client">VIEW CLIENT SUCCESS STORIES</h2>
-		</div>
-	<div class="success-content">
-		<p>We source all speakers and materials, build an effective landing page and develop multi-channel, content driven marketing campaigns that generate high quality attendance and sponsorship revenue.</p>
+	<p class="success-content">We source all speakers and materials, build an effective landing page and develop multi-channel, content driven marketing campaigns that generate high quality attendance and sponsorship revenue.
+	</p>
+	<div class="main-circle">
+		<div class="success-circle-2" href="https://www.facebook.com/"></div>
+		<h2 class="success-circle"></h2>
 	</div>
 </div>
 
-<div class="image-2">
+<img class="img-2" src="images/home-2.png">
 
+<div class="final">
+	<div class="social">
+		<img class = "social-img" src="images/twitter.png" alt="twitter" style="height: 3%; width: 3%;">
+		<a class="share-button" href="https://twitter.com/intent/tweet?text=Hello%20world">twitter</a>
+		<img class = "social-img" src="images/facebook.png" alt="facebook" style="height: 3%; width: 3%;">
+		<a class="share-button" href="https://www.facebook.com/">facebook</a>
+		<img class = "social-img" src="images/linkedin.png" alt="linkedin" style="height: 3%; width: 3%;">
+		<a class="share-button" href="https://www.linkedin.com/feed/">linkedIn</a>
+	</div>
+	<footer>
+		<p>Sprint Media© 2017 all rights revserved. See the patent and other legal notices in documentation.</p>
+		<p>Contact | Info | Legal | Privacy | Terms of Service | Support</p>
+	</footer>
 </div>
 
-<div class="social">
-<!-- research how to get social media icons -->
-</div>
-
-<footer>
-	<p>Sprint Media© 2017 all rights revserved. See the patent and other legal notices in documentation. Contact | Info | Legal | Privacy | Terms of Service | Support</p>
-</footer>
-
+<script type="text/javascript" 
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="sprint.js"></script>
+		<!-- linking up to the main jquery library -->
 </body>
 </html>
